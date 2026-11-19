@@ -1,0 +1,15 @@
+{
+  "name": "poliamantes",
+  "version": "1.0.0",
+  "description": "Poliamantes contados por crescimento e por Redelmeier, com o lema de Burnside como juiz: livres, fixos, as simetrias de cada um e o primeiro com buraco, em Node puro",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
